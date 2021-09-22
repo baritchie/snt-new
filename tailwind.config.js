@@ -6,10 +6,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['loos-normal, sans-serif', ...defaultTheme.fontFamily.sans],
+      },
+      borderWidth: {
+        1: '1px',
       },
     },
   },
-  variants: {},
+  variants: {
+    borderRadius: ['hover', 'focus'],
+  },
   plugins: [require('@tailwindcss/typography')],
 };

@@ -1,12 +1,16 @@
 {
   "items": [
     {
-      "text": "Home",
-      "url": "/"
+      "text": "Portfolio",
+      "url": "#porfolio"
     },
     {
-      "text": "About",
-      "url": "/about/"
+        "text": "Testimonials",
+        "url": "#testimonials"
+    },
+    {
+        "text": "Contact",
+        "url": "#contact"
     }
   ]
 }
